@@ -1,0 +1,83 @@
+/** Date Picker Styles */
+.custom-input {
+    width: 100%;
+    border-radius: 15px;
+    border: 1px #0c8af8 solid;
+    padding: 4px 12px;
+    background-color: white;
+    height: 22px;
+    box-shadow: 0 0 2px #0074d9;
+    font-family: 'Shantell Sans', cursive;
+    color:#6c6c6c;
+}
+  
+.custom-input:focus {
+    outline: none;
+    border: 1px solid #0c8af8;
+    box-shadow: 0 0 10px 2px #0074d9;
+}
+
+/** Menu Styles */
+.collapse{
+    position: relative;
+}
+
+.menu{
+    width:300px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left:0;
+    top:100px;
+    background-color: rgb(255, 255, 255);
+    padding:15px;
+    border-radius: 5px;
+    box-shadow: 0 0 2px #0074d9;
+    transform: translate(0,-40px);
+    /* transition: all ; */
+}
+.menu_input:focus{
+    outline: none;
+    border: 1px solid #0c8af8;
+    box-shadow: 0 0 10px 2px #0074d9;
+}
+.menu_item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0 4px;
+}
+.menu_item span{
+    font-size: 15px;
+}
+.counter_box{
+    width: 50%;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.menu_item_label{
+    width: 40%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    float: right;
+}
+.item{
+    width: 100%;
+    margin:5px 0;
+}
+.item:hover{
+    background-color: #0c8af8;
+    color: white;
+}
+.menu_item_label span{
+    text-align: end;
+}
+
+
+.confirm_btn{
+    background-color:#0074d9;
+    color: white;
+    margin-top: 10px;
+}
